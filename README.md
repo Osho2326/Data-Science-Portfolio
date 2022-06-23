@@ -59,7 +59,7 @@ or not.files contain one message per line. Each line is composed by two columns:
     1. Algorithms : 
     2. Performance Matrics :
 - **Personalized Cancer Diagnosis : NIPS Competition** :- 
-    1. Algorithms : Naive Bayes, Logistic Regression
+    1. Algorithms : Naive Bayes, Logistic Regression, Linear SVM, K-Nearest Neighbour
     2. Performance matrics : Multi-class log-loss, confusion matrics
 - **Microsoft Malware detection** :- 
 - **Netflix Movie Recommendation** :- 
