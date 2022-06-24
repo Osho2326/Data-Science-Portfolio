@@ -25,7 +25,7 @@ Note: Data used in the projects (accessed under data directory) is for demonstra
 - **Quora Question Pair: Identify question pair that have the same intention : Binary Classification problem** :- Created a machine learning model that identified which questions asked on Quora are duplicates of questions that have already been asked. This is used to instantly provide answers to questions that have already been answered. Task was to predict whether a pair of questions are duplicates or not.
 - **Stack Overflow: Tag Prediction : Multi-label classification** :- Created a ML model to suggest the tags based on the content that was there in the question posted on Stackoverflow. Model predict as many tags as possible with high precision and recall because incorrect tags could impact customer experience on StackOverflow.
 - **Personalized Cancer Diagnosis : NIPS Competition : Multi class classification problem** :- Created a ML model which classify the given genetic variations/mutations based on evidence from text-based clinical literature. Two data files: one conatins the information about the genetic mutations and the other contains the clinical evidence (text) that human experts/pathologists use to classify the genetic mutations. Classified the given genetic variations/mutations based on evidence from text-based clinical literature.
-- **Microsoft Malware detection : Multi class classification problem** :- Created a machine learning model to identify whether a given piece of file/software is a malware. In order to be effective in analyzing and classifying such large amounts of data, we need to be able to group them into groups and identify their respective families. Dataset provided by Microsoft contains about 9 classes of malware.
+- **Microsoft Malware detection : Multi class classification problem**(Currently Working) :- Creating a machine learning model to identify whether a given piece of file/software is a malware. In order to be effective in analyzing and classifying such large amounts of data, we need to be able to group them into groups and identify their respective families. Dataset provided by Microsoft contains about 9 classes of malware.
 
 ### Recommendation System:
 
@@ -56,12 +56,11 @@ or not.files contain one message per line. Each line is composed by two columns:
     1. Algorithm : Logistic Regression, Linear SVM, and XgBoost
     2. Performance Matrics : Log-loss, Confusion matrics, Precision and Recall
 - **Stack Overflow: Tag Prediction** :- 
-    1. Algorithms : 
-    2. Performance Matrics :
+    1. Algorithms : Logistic Regression with OneVsRest Classifier
+    2. Performance Matrics : Micro-Averaged F1-Score (Mean F Score), Hamming loss
 - **Personalized Cancer Diagnosis : NIPS Competition** :- 
     1. Algorithms : Naive Bayes, Logistic Regression, Linear SVM, K-Nearest Neighbour
     2. Performance matrics : Multi-class log-loss, confusion matrics
-- **Microsoft Malware detection** :- 
 - **Netflix Movie Recommendation** :- 
     1. Algorithm :
         - For regression problem : Xgboost
