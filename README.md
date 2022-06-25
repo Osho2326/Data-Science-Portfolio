@@ -4,7 +4,7 @@ Portfolio of data science projects completed by me for Data Scientist position, 
 ## Motivation : 
 I have been working in the field of Data Science for the last 18-20 months. I first learned about Data Science when I was in my 3rd year of my graduation and came to know about how we are in the midst of a new global revolution, one that is driven by and centred on data that surrounds us and infuses everything we do, from making a toast to driving cars across the country and establishing new paradigms of social interaction and the key to all that is Data Science. My interest grew more and more as I learned what Artificial Intelligence can bring to the future. I am motivated towards my role as a Data Scientist.
 
-Looking forward to advance my career as a Data Scientist since what matters in Data Science is the richness of our analysis not the quantity of code. The analysis is more important for me than code if I ought to pick one. I believe that I am passionate, intellectually capable, and prepared to set out on this exhilarating path.
+I advanced my career as a Data Scientist since what matters in Data Science is the richness of our analysis not the quantity of code. The analysis is more important for me than code if I ought to pick one. I believe that I am passionate, intellectually capable, and prepared to set out on this exhilarating path.
 
 For a more visually pleasant experience for browsing the portfolio, check out 
 https://osho2326.github.io/portfolio/
@@ -59,8 +59,17 @@ or not.files contain one message per line. Each line is composed by two columns:
     1. Algorithms : Logistic Regression with OneVsRest Classifier
     2. Performance Matrics : Micro-Averaged F1-Score (Mean F Score), Hamming loss
 - **Personalized Cancer Diagnosis : NIPS Competition** :- 
-    1. Algorithms : Naive Bayes, Logistic Regression, Linear SVM, K-Nearest Neighbour
-    2. Performance matrics : Multi-class log-loss, confusion matrics
+    1. Algorithms : 
+        -  Naive Bayes
+        -  Logistic Regression
+            - With class balance
+            - Without class balance 
+        -  Linear SVM, 
+        -  K-Nearest Neighbour
+        -  Random Forest
+            - Hyper parameter tuning (With One hot Encoding)
+            - Hyper parameter tuning (With Response Coding) 
+    3. Performance matrics : Multi-class log-loss, confusion matrics
 - **Netflix Movie Recommendation** :- 
     1. Algorithm :
         - For regression problem : Xgboost
