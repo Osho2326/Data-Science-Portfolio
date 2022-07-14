@@ -44,20 +44,20 @@ or not.files contain one message per line. Each line is composed by two columns:
 - **Indian Start-ups Ecosystem**:- Objective was to find investors and increase the chances of funding opportunities. Data had details about 3009 funding deals and data was available from January 2015 till September 2019.
 - **Zomato Bangalore Restaurants**:- Objective was to analyze the Zomato dataset to get a fair idea about the factors affecting the establishment of restaurant and boost sale for beverages at different places in Bengaluru.
 
-### Algorithms and Performance Matrics Used:
+### Algorithms and Performance Metrics Used:
 
 - **Social network Graph Link Prediction - Facebook** :- 
     1. Algorithm : Random Forest Classifier and RandomSearchCV to find the optimal hyper-parameter.
-    2. Performance matrics : F1 Score and Confusion matrics.
+    2. Performance metrics : F1 Score and Confusion metrics.
 - **Taxi Demand Prediction in New York City : Time-series forecasting** :- 
     1. Algorithm : Linear Regression, Random Forest Regression and XgBoost regression.
-    2. Performance matrics : Mean Absolute percentage error, Mean Squared error.
+    2. Performance metrics : Mean Absolute percentage error, Mean Squared error.
 - **Quora Question Pair: Identify question pair that have the same intention** :- 
     1. Algorithm : Logistic Regression, Linear SVM, and XgBoost
-    2. Performance Matrics : Log-loss, Confusion matrics, Precision and Recall
+    2. Performance Metrics : Log-loss, Confusion metrics, Precision and Recall
 - **Stack Overflow: Tag Prediction** :- 
     1. Algorithms : Logistic Regression with OneVsRest Classifier
-    2. Performance Matrics : Micro-Averaged F1-Score (Mean F Score), Hamming loss
+    2. Performance Metrics : Micro-Averaged F1-Score (Mean F Score), Hamming loss
 - **Personalized Cancer Diagnosis : NIPS Competition** :- 
     1. Algorithms : 
         -  Naive Bayes
@@ -69,7 +69,7 @@ or not.files contain one message per line. Each line is composed by two columns:
         -  Random Forest
             - Hyper parameter tuning (With One hot Encoding)
             - Hyper parameter tuning (With Response Coding) 
-    3. Performance matrics : Multi-class log-loss, confusion matrics
+    3. Performance metrics : Multi-class log-loss, confusion metrics
 - **Netflix Movie Recommendation** :- 
     1. Algorithm :
         - For regression problem : Xgboost
@@ -81,10 +81,10 @@ or not.files contain one message per line. Each line is composed by two columns:
             - Baseline + XgBoost + knn_bsl_m
             - Matrix factorization techniques such as SVD
             - Baseline + XgBoost + KNN + MF SVD
-    2. Performance Matrics : Mean Absolute Percentage Error, Root Mean Square Error
+    2. Performance Metrics : Mean Absolute Percentage Error, Root Mean Square Error
 - **Amazon Fine Food Review** :- 
     1. Algorithms : Naive Bayes, Logistic Regression 
-    2. Performance Matrics : Confusion matrics, AUC
+    2. Performance Metrics : Confusion metrics, AUC
 
 If you liked what you saw, want to have a chat with me about the portfolio, work opportunities, or collaboration, shoot an email at oshokumar97@gmail.com.
 
